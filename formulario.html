@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="image/logo.png">
+
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo.png" alt="" width="40" class="d-inline-block align-text-middle mr-1">
+                LovePet
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav pl-3">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="animacaoservices">
+                            <a class="dropdown-item" href="services.html">Atendimento</a>
+                            <a class="dropdown-item" href="outlet.html">Shopping</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formulario.html">Contact Us</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline ml-auto">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <section class="d-flex align-items-center justify-content-center flex-column formulario">
+
+        <p class="titleAbout">Contato</p>
+
+    </section>
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <main class="col-md-10 col-xs-12 p-0">
+
+                <section class="corpoformulario">
+                    <div class="container pt-5">
+                        <div class="row">
+                            <div class="col-md-6 col-xs-12 ">
+
+                                <form>
+                                    <div class="form-row">
+                                        <div class="col-md-6 mb-3">
+                                            <label for="nome" class="sr-only">Primeiro Nome</label>
+                                            <input type="text" class="form-control" id="nome"
+                                                placeholder="Primeiro Nome" onblur="validaNome()">
+
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label for="sobrenome" class="sr-only">Sobrenome</label>
+                                            <input type="text" class="form-control" id="sobrenome"
+                                                placeholder="Sobrenome"  value="" required  onblur="Sobrenome()">
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="col-md-8 mb-3">
+                                            <label for="email" class="sr-only">E-mail</label>
+
+                                            <input type="email" class="form-control" id="email" placeholder="E-mail"
+                                                aria-describedby="inputGroupPrepend" required onblur="validacaoEmail(this)">
+
+
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <label for="telefone" class="sr-only">Telefone</label>
+
+                                            <input type="tel" class="form-control" id="telefone" placeholder="Telefone"
+                                                aria-describedby="inputGroupPrepend" required onblur="Validatelefone()">
+
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div class="col-md-12">
+                                            <label for="text" class="sr-only">Message</label>
+                                            <textarea name="message" id="message" cols="54" rows="5"
+                                                placeholder="Deixe uma mensagem"  required></textarea>
+
+
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck"
+                                                required>
+                                            <label class="form-check-label" for="invalidCheck">
+                                                Estou ciente e concordo com os termos
+                                            </label>
+
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-success mb-3" type="submit">Enviar</button>
+                                </form>
+                            </div>
+                            <div class="col-md-6 pb-5">
+                                <div class="card" style="width: 28rem;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Informações</h5>
+                                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Debitis iste eaque iure ad doloremque nesciunt atque, quasi animi?
+                                            Cupiditate temporibus, soluta enim cum sed ea voluptatibus in nemo facilis
+                                            voluptate?</p>
+                                        <ul class="style">
+                                            <li>
+                                                <i class="fa fa-envelope"></i>
+                                                <a class="pl-2 text-black-50"" href="#">email@yoursite.com</a>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-phone"></i>
+                                                <a class="pl-2 text-black-50"" href="#">(00) 9999-9999</a>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-map-marker"></i>
+                                                <a class="pl-3 text-black-50"" href="#">PetLove, 123 - São Paulo</a>
+                                            </li>
+                                        </ul>
+
+                                        <div id="mapa" class="embed-responsive embed-responsive-16by9">
+
+                                            <<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117005.53696906309!2d-47.59731114488345!3d-23.589156900079658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58a8d65c83b9f%3A0x9dd7fef4f8546967!2sPetit%20Shop!5e0!3m2!1spt-BR!2sbr!4v1630220123559!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                    
+                                          </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                </section>
+
+            </main>
+            <aside class="col-md-2 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12 d-flex justify-content-center pt-3">
+                            <img src="image/medium_banner-produto_frete-gratis.png" alt="" height="90%">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card border-0 mb-2 pb-3">
+                                <div class="card-body">
+                                    <img src="image/Areia_Sanitária_Kelco_Pipicat_Classic_04.jpg" class="img-fluid"
+                                        alt="">
+                                </div>
+                                <div>
+                                    <h6 class="pl-4 pr-4">Areia sanitária Chalesco Cristais de Sílica - 1,8kg </h6>
+                                    <p class="pl-4 font-weight-light mb-0 precoantigo">R$49,99</p>
+                                    <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$49,99</p>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </aside>
+
+        </div>
+
+    </div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+    </div>
+
+    <footer>
+        <section>
+            <h2 class="h2nos">Nos acompanhe nas redes sociais</h2>
+        </section>
+        <section id="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+
+        </section>
+        <section id="desenvolvimento">
+            <p>© Lovepet - 2021. Todos os direitos reservados</p>
+        </section>
+    </footer>
+
+  
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+
+
+</body>
+
+</html>

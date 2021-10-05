@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="image/logo.png">
+
+    <title>Shopping</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <a class="navbar-brand" href="index.html">
+                <img src="image/logo.png" alt="" width="40" class="d-inline-block align-text-middle mr-1">
+                LovePet
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav pl-3">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="animacaoservices">
+                            <a class="dropdown-item" href="services.html">Atendimento</a>
+                            <a class="dropdown-item" href="outlet.html">Shopping</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formulario.html">Contact Us</a>
+                    </li>
+                </ul>
+
+                <form class="form-inline ml-auto">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg></button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <main class="col-md-12  col-xs-12 p-0">
+                <section class="d-flex align-items-center justify-content-center flex-column outlet">
+
+                    <p class="textoutlet">Shopping</p>
+
+                </section>
+                <section class="produtos">
+                    <div class="container py-1">
+                        <div class="row py-3">
+                            <div class="col-lg-5 ">
+                                <h2 class="display-5">Produtos Outlet</h2>
+
+                            </div>
+
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out1.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Ração Premier Golden Formula Cães Adultos Frango e Arroz Mini Bits </h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$149,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$129,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out2.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Ração Úmida Whiskas Sachê Peixe Jelly para Gatos Adultos</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$2,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$1,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out3.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Ração Úmida Affinity PetCare GranPlus Sachê Gourmet Carne para Gatos</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$2,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$1,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out4.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Biscoito Premier Pet Cookie para Cães Adultos Raças Pequenas </h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$19,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$14,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out5.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Ração Úmida Affinity Faro Lata Patê Sabor Carne para Gatos </h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$7,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$4,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out6.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Catnip Petmais Catmais A Erva do Gato - Para deixar mais calmos</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$14,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R10,12</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out7.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Ração Kitekat Sachê Frango para Gatos Adultos - Uma porção</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$2,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$0,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out8.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Ração Nestlé Purina Friskies Sachê Salmão ao Molho para Gatos</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$2,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$0,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out9.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Biscoito Pedigree Rodeo Carne Para Cães Adultos 4 Unidades</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$10,19</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$4,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out10.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Ração Úmida Pedigree Lata Patê de Carne para Cães Adultos - 280 g</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$9,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$7,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out11.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Biscoito Premier Pet Golden Cookie Banana Aveia e Mel para Cães Adultos</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$15,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$9,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out12.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Snack Bark Sobremesa Açaí com Banana e Aveia para Cães </h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$5,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$3,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+
+                <section class="produtos">
+                    <div class="container py-1">
+                        <div class="row py-3">
+                            <div class="col-lg-5">
+                                <h2 class="display-5">Favoritos dos Pet's</h2>
+                            </div>
+
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out13.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Brinquedo American Pets Cat Toy Ratinho com Penacho</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$6,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$4,45</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out14.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Brinquedo Truqys Pets Nav Cat Roxo com Verde - Para gatos</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$89,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$69,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out15.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Brinquedo Bolinha Vira Vira para Gatos - cores e tons variados</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$115,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$99,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out16.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Brinquedo Pelúcia Ratinho Bege para filhotes e Adultos - Pet</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$19,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$13,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out17.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Brinquedo Chalesco Pelúcia Macaco - Disponível na cor marrom</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$39,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$24,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out18.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Brinquedo Mordedor Chalesco Rope Ball White and Black para Cães</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$9,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$5,99</p>
+                                        <div class="d-flex justify-content-center align-content-center"> 
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out19.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Brinquedo Chalesco Cachorro Luxo para Cães - Cores podem variar</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$29,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$19,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card border-0 mb-2 pb-3">
+                                    <div class="card-body d-flex justify-content-center align-items-center">
+                                        <img src="image/out20.jpg" class="img-fluid"
+                                            alt="">
+                                    </div>
+                                    <div>
+                                        <h6 class="pl-4 pr-4">Brinquedos American Pets Corujão - Cores e tons podem variar</h6>
+                                        <p class="pl-4 font-weight-light mb-0 precoantigo">R$79,99</p>
+                                        <p class="pl-4 font-weight-bolder" style="color: rgb(250, 51, 94);">R$45,99</p>
+                                        <div class="d-flex justify-content-center align-content-center">
+                                            <button type="button"
+                                                class="btn btn-danger text-uppercase ">comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+        </div>
+
+        </section>
+        <span id="scroll-top-btn"><img src="image/logo.png" alt=""></span>
+
+        </main>
+
+    </div>
+
+    </div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+    </div>
+
+    <footer>
+        <section>
+            <h2 class="h2nos">Nos acompanhe nas redes sociais</h2>
+        </section>
+        <section id="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+
+        </section>
+        <section id="desenvolvimento">
+            <p>© LovePet - 2021. Todos os direitos reservados</p>
+        </section>
+    </footer>
+
+
+
+
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,300;1,500;1,600;1,800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilizaçãp do menu  */
+
+.navbar-brand{
+    padding-left: 5px;
+}
+
+
+.navbar-nav a{
+ 
+    font-size: 16px;
+    padding-bottom: 13px;
+    font-weight: 600;
+ 
+}
+
+.dropdown:hover .dropdown-menu {
+   
+    display: block;
+    transition: all .5 ease-in-out;
+}
+
+.dropdown .dropdown-menu a:hover {
+    color: black;
+    background-color: #ffc107;
+}
+
+/* final da estilização do menu */
+
+/* Estlização do index */
+
+.fundo{
+
+    background: url("image/pexels-maksim-goncharenok-4422100.jpg"); 
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 92vh;  
+}
+
+.textoprincipal {
+    position: relative;
+    top: 70px;
+    color: white;
+    font-size: 5rem;
+}
+
+
+.subtext {
+    position: relative;
+    top: 10px;
+    color: white;
+    font-size: 5.4rem;
+}
+
+.btnmore {
+    position: relative;
+    top: -15px;
+    left: 280px;
+    bottom: 25px;
+}
+
+.card-fundo {
+    background-color: #DDDDDF;
+}
+
+
+
+ .card-facilidades h3 {
+     font-size: 18px;
+     padding-top: 10px;
+ }
+
+.promocaosemana {
+    position: relative;
+    top: 120px;
+    
+}
+
+.promosem {
+    font-size: 32px;
+}
+
+.ppromo {
+    text-indent: 1.5rem;
+}
+
+.img-semana img {
+    height: 550px;
+}
+
+/* Fim da estilização do index */
+
+
+
+/* início About Us */
+
+.sobreNos {
+    background-image:url("image/pexels-sam-lion-5732456.jpg");
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position-y: 10%;
+   height: 92vh;
+}
+
+.titleAbout {
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+
+.informacoes img {
+    height: 500px;
+    padding-left: 50px;
+}
+
+.textosn {
+    text-indent: 1.5rem;
+}
+
+
+ .profile-cards {
+    padding: 35px 0;
+
+ }
+
+ .card {
+     box-shadow: 0 0 5px rgba(0,0,0,0.2);
+     overflow: hidden;
+     border-radius: 15px;
+ }
+
+ .img1 {
+    height: 150px;
+    background-color:#DDDDDF ;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+ }
+
+ .img2 img {
+     position: relative;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     z-index: 1;
+     width: 140px;
+     height: 140px;
+     border-radius: 50%;
+     border: 7px solid #fff;
+     margin-top: -80px;
+ }
+
+ .card:hover .img2 img {
+     border-color: #ffc107;
+ }
+
+.main-text {
+    padding: 30px, 0;
+
+}
+
+.main-text h2 {
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+.main-text h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.socials {
+    text-align: center;
+    padding-bottom:20px ;
+}
+
+.socials i {
+    font-size: 20px;
+    color: #ffc107;
+    padding: 0 10px;
+}
+
+.socials i:hover {
+   
+    color: #17a2b8;
+  
+}
+
+/* fim do About Us  */
+
+
+
+/* Atendimento  */
+
+
+.atendimento {
+    background-image:url("image/pexels-tima-miroshnichenko-6235021.jpg");
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position-y: 10%;
+   height: 100vh;
+
+    
+}
+
+.textoinfo {
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+
+ .side-cont h3{
+     padding-top: 7px;
+    font-size: 18px;
+ }
+
+
+
+ .info-text {
+     padding-top: 150px;
+ }
+
+.img-info img {
+    height: 550px;
+}
+
+ 
+/* Final da estilização atendimento  */
+
+/* Botão scroll */
+#scroll-top-btn {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+    z-index: 2;
+    
+}
+
+#scroll-top-btn img {
+    height: 40px;
+}
+
+
+
+/* Fim do botao scroll */
+
+
+
+
+ .formulario {
+    background-image:url("image/pexels-ni-san-135033.jpg");
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position-y: 50%;
+   height: 50vh;
+
+    
+}
+
+
+
+
+.style {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.style i {
+    font-size: 20px;
+    color: #ffc107;
+    padding: 10px 10px;
+}
+
+.style i:hover {
+   
+    color: #17a2b8;
+  
+}
+
+
+/* Começo da página shopping */
+
+.outlet {
+    background-image:url("image/pexels-simona-kidrič-2607544.jpg");
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position-y: 38%;
+   height: 50vh;
+
+    
+}
+
+.textoutlet {
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+
+
+.card h6 {
+    font-size: 14px;
+}
+
+.card:hover {
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    transition: 0.5s;
+
+}
+
+.precoantigo {
+    text-decoration:line-through ;
+}
+
+/* Final da página shopping */
+
+
+
+/* Começo da estilização do footer */
+ #social {
+    background-color: #000000;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+
+#social a {
+    display: inline-flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: solid 1px rgb(255, 254, 254);
+    padding: 20px;
+    margin: 0 15px;
+    font-size: 20px;
+    justify-content: center;
+    width: 10px;
+    height: 10px;
+    align-items: center;
+    border-radius: 15px;
+    transition: 0.2s;
+
+}
+
+footer h2 {
+    color: white;
+    padding-top: 10px;
+    display:inline-flex;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: #000000;
+    margin: 0;
+  
+}
+
+footer #desenvolvimento p {
+    background-color: #ffc107;
+    display:flex;
+    text-align: center;
+    font-size: 1rem;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 0;
+    
+}
+
+#social a i {
+    transition:1s;
+}
+
+#social a:hover {
+    transform: scale(1.1);
+    background: #fff;
+    border: 1px solid white;
+    color: #ffc107;
+    
+}
+
+#social a i:hover {
+    transform: rotate(15deg) scale(1);
+}
+
+/* Fim da estilização do footer */
+
+
+
+
+@media (max-width: 576px)
+{
+
+    .fundo {
+        height: 40vh;
+    }
+    .textoprincipal {
+        font-size: 2rem;
+    }
+ 
+    .pl-5, .px-5 {
+        padding-left: 1rem!important;
+    }
+    .subtext {
+        top: 39px;
+        font-size: 2.15rem;
+    }
+    .btnmore {
+
+        left: 83px;
+        top: 20px;
+    }
+    
+    .btnmore {
+        font-size: 0.5rem;
+    }
+    
+    .img-semana {
+        display: flex;
+        justify-content: center;
+    }
+    .img-semana img {
+        padding-top:120px;
+        height: 400px;
+    }
+   
+    .textoutlet {
+        font-size: 2rem;
+    }
+    
+    .outlet {
+        height: 25vh;
+    }
+
+    .formulario {
+        height: 40vh;
+    }
+
+
+
+    .boximg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .informacoes img {
+        padding-left: inherit;
+        height: 250px;
+    }
+
+    .textosn {
+        padding: 0 25px 0 25px;
+    }
+    #social a {
+        font-size: 18px;
+        width: 10px;
+        height: 10px;
+        margin: 0 8px;
+    }
+
+    footer #desenvolvimento p {
+        font-size: 0.75rem;
+        line-height: 1.5rem;
+        
+    }
+
+    footer h2 {
+        font-size: 1rem;
+    }
+
+    .titleAbout {
+        font-size: 2rem;
+    }
+    .sobreNos {
+        height: 40vh;
+    }
+
+    .atendimento {
+       height: 50vh;
+    }
+
+    
+    .textoinfo {
+        font-size: 2rem;
+    }
+
+
+    
+
+
+
+   
+   
+}
+@media(min-width: 577px) and (max-width: 768px)
+{
+    .fundo {
+        height: 50vh;
+    }
+   .imginfo img {
+    height: 200px;
+    
+    }
+
+    .textoprincipal {
+        font-size: 2rem;
+    }
+
+    .pl-5, .px-5 {
+        padding-left: 1rem!important;
+    }
+    .subtext {
+        top: 39px;
+        font-size: 2.2rem;
+    }
+
+    .btnmore {
+
+        left: 65px;
+        top: 25px;
+    }
+
+    .img-info img {
+        padding-top: 120px;
+        height: 100px;
+    }
+    .btn {
+        font-size: 0.75rem;
+    }
+
+   
+   
+   
+}
+
+@media (min-width: 768px)
+{
+  
+
+   
+}
+
+@media (min-width: 992px)
+{
+  
+
+   
+}
+@media (min-width: 1200px)
+{
+  
+
+   
+}
